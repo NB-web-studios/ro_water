@@ -34,7 +34,7 @@ export default function Footer() {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-lg tracking-tight leading-none text-white">
+                <span className="font-bold text-lg leading-normal text-white">
                   {t.title}
                 </span>
                 <span className="text-[10px] font-semibold text-brand-aqua tracking-widest uppercase mt-0.5">

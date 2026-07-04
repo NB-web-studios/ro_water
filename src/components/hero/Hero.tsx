@@ -46,7 +46,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.1] text-brand-navy dark:text-white"
+              className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-normal md:tracking-tight leading-[1.1] text-brand-navy dark:text-white"
             >
               {t.heroHeading1} <br />
               <span className="bg-gradient-to-r from-brand-aqua via-brand-teal to-brand-orange bg-clip-text text-transparent">
