@@ -23,7 +23,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="relative py-20 z-10 bg-brand-navy/[0.01] dark:bg-white/[0.01]">
+    <section id="contact" className="relative py-20 z-10 overflow-hidden bg-brand-navy/[0.01] dark:bg-white/[0.01]">
       <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-brand-aqua/5 blur-[90px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

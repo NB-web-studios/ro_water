@@ -9,7 +9,7 @@ export default function LanguageButton() {
   const { language, toggleLanguage } = useLanguage();
 
   return (
-    <div className="fixed bottom-24 right-6 z-40 select-none">
+    <div className="fixed bottom-[168px] right-6 z-40 select-none">
       <motion.button
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

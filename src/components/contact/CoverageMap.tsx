@@ -33,7 +33,7 @@ export default function CoverageMap() {
   };
 
   return (
-    <section id="coverage" className="relative py-20 z-10">
+    <section id="coverage" className="relative py-20 z-10 overflow-hidden">
       <div className="absolute top-1/3 left-1/3 w-[300px] h-[300px] bg-brand-aqua/5 blur-[90px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

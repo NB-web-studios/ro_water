@@ -18,10 +18,11 @@ import CanvasWave from "../components/ui/CanvasWave";
 import EmergencyCTA from "../components/ui/EmergencyCTA";
 import WhatsAppButton from "../components/ui/WhatsAppButton";
 import LanguageButton from "../components/ui/LanguageButton";
+import CallFloatingButton from "../components/ui/CallFloatingButton";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen flex flex-col bg-background text-foreground transition-colors duration-300">
+    <div className="relative min-h-screen flex flex-col bg-background text-foreground transition-colors duration-300 overflow-x-hidden">
       
       {/* Dynamic Water backdrop wave illustration */}
       <CanvasWave />
@@ -29,6 +30,7 @@ export default function Home() {
       {/* Floating Action Elements */}
       <EmergencyCTA />
       <WhatsAppButton />
+      <CallFloatingButton />
       <LanguageButton />
 
       {/* 1. Header Navigation */}

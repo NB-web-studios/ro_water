@@ -28,7 +28,7 @@ export default function Technology() {
   const activeTechDetails = (technologyTranslations as any)[activeTechId]?.[language];
 
   return (
-    <section id="technology" className="relative py-20 z-10">
+    <section id="technology" className="relative py-20 z-10 overflow-hidden">
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-brand-teal/5 blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
